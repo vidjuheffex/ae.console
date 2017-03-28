@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" /> 
+    <title>Console</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+    <header>
+        <h1>Console</h1>
+    </header>
+    <main>
+        <h2>About</h2>
+        <p>Console is a simple GUI script for After Effects that creates a console in which you can type Extendscript commands to be executed.</p>
+        <img src="imgs/console_sg00.jpg" />
+        <h2>Features</h2>
+        <ul>
+            <li>Command History - Press ⇧ to re-access previous commands.</li>
+            <li>Error Reporting - Echo's back errors into the console as well as changing the status bar of the console red.</li>
+            <li>Quick Objects - <span class="code">project</span>, <span class="code">items</span>, <span class="code">renderQueue</span>, and <span class="code">selection</span> have been added as built-in objects to reduce typing.</li>
+            <li>Floating or Docking Interface - Adding the script to your ScriptsUI folder, adds it to After Effects 'window' menu and allows it dock. Running the script through a launcher or from "File > Scripts > Run Script File..." launches a non-dockable version.</li>
+        </ul>
+        <img src="imgs/console_sg01.jpg" />
+        <h2>Issues and Limitations</h2>
+        <ul>
+            <li><span class="code">project.activeItem</span> can't be referenced since the GUI panel becomes the active item.</li>
+            <li>variables declared with <span class="code">var</span> will not exist outside their current command. For example, after running <span class="code">var dog = "sparky"</span>, subsequent commands will not have access to <span class="code">dog</span>, whereas with <span class="code">dog = "sparky"</span>, <span class="code">dog</span> will be available in the global namespace. </li>
+            <li>Quick Objects - <span class="code">project</span>, <span class="code">items</span>, <span class="code">renderQueue</span>, and <span class="code">selection</span> have been added as built-in objects to reduce typing.</li>
+        </ul>
+        <h2>Download/Contribute</h2>
+        <p> Visit <a href="https://github.com/vidjuheffex/ae.console">https://github.com/vidjuheffex/ae.console</a> to download the source, fork, contribute and more.</p>
+    </main>
+    
+</body>
+</html>

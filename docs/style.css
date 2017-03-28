@@ -1,0 +1,52 @@
+* {
+    margin: 0
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+header image{
+    display: inline-block;
+}
+
+main {
+    box-sizing: border-box;
+    margin: 0 1rem;
+}
+
+main image {
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+    max-width: 100%;
+}
+
+h1, h2 {
+    font-weight: normal;
+    margin-top: .5rem;
+}
+
+p {
+    margin: .5rem 0
+}
+
+.code {
+    font-family: monospace;
+    font-size: .75rem;
+    background-color: rgb(230, 230, 230);
+    padding: .25rem;
+    border-radius: .25rem;
+}
+
+ul {
+    
+}
+
+li {
+    margin: .5rem 0;
+}
